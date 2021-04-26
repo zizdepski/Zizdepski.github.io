@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Zack's Amazing Website</title>
+        <style>
+    body {
+        background: rgb(125, 198, 205);
+        color: rgb(45, 45, 45);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(239, 80, 41);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    nav h1 {
+        display: flex;
+        align-items: center;
+        color: white;
+        flex: 1;
+        margin: 0;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(245, 238, 219);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents"> 
+            <nav>
+                <h1>Zack's Excellent Website</h1>
+                <ul>
+                    <li>
+                      <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                      <a href="portfolio.html"> Portfolio </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <main>
+                <div class="sidebar">
+                    <img src="https://avatars.githubusercontent.com/u/20464133?s=400&u=dbe2071a3da4d6e7a2c4d622b3c866a0975ffda9&v=4">
+                </div>
+
+                <div class="content">
+                    <h2>Zack Izdepski</h2>
+                    <p>Coding Student</p>
+                    <div id="interests">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Soccer</li>
+                            <li>Cycling</li>
+                            <li>Cooking</li>
+                        </ul>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
